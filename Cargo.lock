@@ -1376,7 +1376,7 @@ dependencies = [
  "log",
  "log4rs",
  "prettytable-rs",
- "rmp-serde 0.13.7",
+ "rmp-serde",
  "rpassword",
  "serde",
  "serde_derive",
@@ -1445,7 +1445,7 @@ dependencies = [
  "pin-utils",
  "rand 0.8.5",
  "regex",
- "rmp-serde 1.1.1",
+ "rmp-serde",
  "serde",
  "serde_json",
  "sha3 0.10.6",
@@ -2225,17 +2225,6 @@ dependencies = [
  "byteorder",
  "num-traits",
  "paste",
-]
-
-[[package]]
-name = "rmp-serde"
-version = "0.13.7"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "011e1d58446e9fa3af7cdc1fb91295b10621d3ac4cb3a85cc86385ee9ca50cd3"
-dependencies = [
- "byteorder",
- "rmp",
- "serde",
 ]
 
 [[package]]
