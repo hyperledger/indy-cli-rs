@@ -18,7 +18,7 @@ fatal_warnings = []
 ansi_term = "0.12.1"
 aries-askar = { git = "https://github.com/hyperledger/aries-askar.git" }
 atty = "0.2"
-byteorder = "1.4.3"
+byteorder = "1.5.0"
 chrono = "0.4.23"
 dirs = "4.0.0"
 dryoc = "0.4.3"
