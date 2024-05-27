@@ -21,7 +21,7 @@ atty = "0.2"
 byteorder = "1.4.3"
 chrono = "0.4.23"
 dirs = "4.0.0"
-dryoc = "0.4.3"
+dryoc = "0.5.3"
 hex = "0.4.3"
 indy-utils = "0.5.0"
 indy-vdr = { git = "https://github.com/hyperledger/indy-vdr.git" }
