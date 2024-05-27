@@ -200,7 +200,7 @@ jobs:
 
       - name: Pack asset
         if: ${{ steps.check_existing.outputs.asset_exists != 'true' }}
-        uses: a7ul/tar-action@v1.1.3
+        uses: a7ul/tar-action@v1.2.0
         with:
           command: c
           cwd: ./release-assets
